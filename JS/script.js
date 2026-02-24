@@ -1,4 +1,4 @@
-const tabs = document.querySelectorAll(".filters button");
+    const tabs = document.querySelectorAll(".filters button");
     const jobList = document.getElementById("jobList");
     const emptyState = document.getElementById("emptyState");
     
