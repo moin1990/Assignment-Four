@@ -57,7 +57,28 @@
     margin-bottom:24px;
   }
   .jobs-top span{
-    color:#69707c;          font-size:16px;
+    color:#69707c;          
+    font-size:16px;
     font-weight: 300;
   }
+
+  /* Job Filter Tabs */
+  .filters{
+    display:flex;
+    gap:8px;
+    margin-bottom:16px;
+  }
+  .filters button{
+    padding:10px 14px;
+    border:1px solid #d1d5db;
+    background:#fff;
+    border-radius:4px;
+    cursor:pointer;
+  }
+  .filters .active{
+    background-color: #2459cb;
+    color:#ffffff;
+    border-color:#2459cb;
+  }
+  
   
