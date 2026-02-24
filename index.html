@@ -3,10 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
-    <title>Document</title>
+    <title>Job Application Tracker</title>
 </head>
 <body>
-    
+    <div class="container">
+        <h1 class="page-title">Job Application Tracker</h1>
+
+            <!--Job States-->
+        
+        <div class="stats">
+            <div class="stat-card">
+                <p>Total</p>
+                <h2 id="totalCount">8</h2>
+            </div>
+            <div class="stat-card">
+                <p>Interview</p>
+                <h2 id="interviewCount" class="green">0</h2>
+            </div>
+            <div class="stat-card">
+                <p>Rejected</p>
+                <h2 id="rejectedCount" class="red">0</h2>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

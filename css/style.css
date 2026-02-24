@@ -1,0 +1,51 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: "Geist", sans-serif;
+    font-optical-sizing: auto;
+  }
+  body{
+    width: 1600px;
+    max-width: 1600px;  
+    background:#f6f8fb;
+    color:#1f2937;
+  }
+  .container{
+    max-width:1100px;
+    margin: 60px auto;
+    padding:0 16px;
+  }
+  .page-title{
+    font-size:32px;
+    font-weight: 900;
+    margin-bottom:20px;
+  }
+  
+  /* Job-Stats */
+  .stats{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap: 16px;
+    margin-bottom:30px;
+  }
+  .stat-card{
+    background:#fff;
+    padding:20px;
+    border-radius:10px;
+    border:1px solid #d8dbe0;
+  }
+  .stat-card p{
+    font-size:14px;
+    color:#69707c;
+  }
+  .stat-card h2{
+    margin-top:8px;
+    font-size: 24px;
+  }
+  .green{
+    color:#18ac4e;
+  }
+  .red{
+    color:#da2d2d;
+  }
