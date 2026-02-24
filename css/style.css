@@ -49,3 +49,15 @@
   .red{
     color:#da2d2d;
   }
+
+  /* Job-Header */
+  .jobs-top{
+    display:flex;
+    justify-content:space-between;
+    margin-bottom:24px;
+  }
+  .jobs-top span{
+    color:#69707c;          font-size:16px;
+    font-weight: 300;
+  }
+  
